@@ -46,10 +46,11 @@
             display: grid;
             grid-gap: 10px;
             border: 4px solid var(--black);
-            grid-template-columns: 1fr 500px 1fr;
+            /* grid-template-columns: 1fr 500px 1fr; */
             grid-template-columns: [sidebar-start site-left] 1fr [sidebar-end content-start] 500px [content-end] 1fr [site-right];
             /* grid-template-rows: repeat(10, auto); */
-            grid-template-rows: [content-top] repeat(10, auto) [content-bottom];
+            /* grid-template-rows: [content-top] repeat(10, auto) [content-bottom]; */
+            grid-template-rows: [content-top] repeat(8, auto) [content-bottom];
         }
 
         .item3{
